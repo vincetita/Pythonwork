@@ -1,4 +1,5 @@
 class fruit:
+    
     def __init__(self, type,color,weight_in_grams, price_per_kilo):
         self.type=type
         self.color=color
@@ -18,4 +19,3 @@ orange= fruit("orange", "yellow",100,2.30)
 orange.get_total_price(100,2.30)
 orange.print_info()
 
-        
